@@ -1,0 +1,12 @@
+create TABLE employee1(id number(4),name VARCHAR(20),gender VARCHAR(10),age number(3), salary number(6));
+
+insert into EMPLOYEE1 values(1001,'Siva','Male',20,28000);
+insert into EMPLOYEE1 values(1002,'Sivakumar','Male',21,29000);
+insert into EMPLOYEE1 values(1003,'Surath','Male',22,30000);
+insert into EMPLOYEE1 values(1004,'kumar','Male',20,35000);
+
+SELECT * FROM EMPLOYEE1;
+
+
+
+ALTER TABLE "table_name" DROP COLUMN "column_name";

@@ -1,0 +1,30 @@
+npm install bootstrap@latest jquery --save
+
+to create gaurd:
+ng g guard name
+
+to create pipe:
+ ng g pipe multiplier
+
+FROM 26H LINE:
+
+
+"styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+},
+
+npm install -g json-server
+json-server --watch db.json
+
+
+npm install bootstrap@latest jquery --save
+
+to install pipe
+
+npm install ngx-order-pipe --save

@@ -1,0 +1,95 @@
+<div class="text text-center">
+    <i>
+        <h2 class="bg-success">********Welcome to the SSK Bank*********</h2>
+    </i>
+</div>
+<div class="container">
+    <br><br>
+    <div class="container">
+        <button type="button" class="btn btn-info btn-block" routerLinkActive [routerLink]="['create']">Create a New
+            Account</button>
+    </div>
+    <br>
+    <div class="container">
+        <button type="button" class="btn btn-info btn-block" routerLinkActive [routerLink]="['balance']">Show My
+            Balance</button>
+    </div>
+    <br>
+</div>
+<div class="container">
+    <br>
+    <div class="container">
+        <button type="button" class="btn btn-info btn-block" routerLinkActive [routerLink]="['deposit']">Deposit
+        </button>
+    </div>
+    <br>
+    <div class="container">
+
+        <button type="button" class="btn btn-info btn-block" routerLinkActive
+            [routerLink]="['withdraw']">Withdraw</button>
+    </div>
+    <br>
+</div>
+<div class="container">
+    <br>
+    <div class="container">
+
+        <button type="button" class="btn btn-info btn-block" routerLinkActive [routerLink]="['transfer']">Fund Transfer
+            Details</button>
+    </div>
+    <br>
+    <div class="container">
+        <button type="button" class="btn btn-info btn-block" routerLinkActive [routerLink]="['print']">Print My
+            Transactions</button>
+    </div>
+    <br>
+</div>
+
+
+
+
+
+
+<div class="container">
+    <h1>Student details</h1>
+    <table class="table table-border">
+        <tr>
+            <th>Student Id</th>
+
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Mobile</th>
+
+
+        </tr>
+            <tr *ngFor='let student of students'>
+                <td>{{student.id}}</td>
+                <td>{{student.name}}</td>
+                <td>{{student.gender}}</td>
+                <td>{{student.age}}</td>
+                <td>{{student.mobile}}</td>
+            </tr>
+
+
+       
+    </table>
+</div>
+
+
+
+
+Surath Siva Kumar
+
+
+186749
+
+
+
+Technical Stuff
+
+
+Nothing
+
+Communication Skills
+How to project our confidence level
